@@ -1,23 +1,17 @@
 import logo from './logo.svg';
+import pic from './pic1.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={pic1} className="App-logo" alt="logo" />
+       
         <p>
           Welcome to Nana Foods India !
-          <img></img>
+          <img src={pic} fluid />
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
       </header>
     </div>
   );
